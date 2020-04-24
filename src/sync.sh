@@ -1,2 +1,4 @@
 #!/bin/sh
-nextcloudcmd -s -h -u $NEXT_USER -p $NEXT_PASS /data $NEXT_SERVER
+echo default login $NEXT_USER password $NEXT_PASS > /.netrc
+nextcloudcmd -h -n /data $NEXT_SERVER
+echo > /.netrc
