@@ -1,4 +1,4 @@
-My Alpine-based nextcloudcmd Dockerfile for syncing my Nextcloud files
+Nextcloudcmd Dockerfile for syncing Nextcloud files
 
 Either clone the repo & edit the `start.sh` file, or run something like:
 
